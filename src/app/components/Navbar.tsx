@@ -11,9 +11,7 @@ import DeviceHubIcon from '@mui/icons-material/DeviceHub';
 import PsychologyAltIcon from '@mui/icons-material/PsychologyAlt';
 import { useRouter } from "next/navigation";
 
-type Props = {};
-
-const Navbar = (props: Props) => {
+const Navbar = () => {
     const router = useRouter()
 
     const handleClick = (text: string) => {
